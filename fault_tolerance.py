@@ -12,7 +12,7 @@ def ft_algo(ans,nb_json, threshold,init_acc,nb_bel_ratio):
     accset = []
     nb_bel = 1.2*nb_bel_ratio*nb_json
     print("lenth of ans: {} number_belief: {}".format(len(ans),nb_bel))
-    if len(ans)>1:
+    if len(ans) > 1:
         # print('length: ')
         # print(len(ans))
         for i in ans:
